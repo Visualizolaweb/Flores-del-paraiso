@@ -43,12 +43,37 @@
               </div>
           </div>
         </div>
-
         <div class="row">
-          <div class="col m12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="col m6 four-pane">
+              <div class="text white-text">
+                <h3>Somos la mejor alternativa en</h3>
+                <h4>URRAO</h4>
+              </div>
+              <img src="Assets/img/pic-home.jpg" alt="La mejor opción de URRAO"/>
+          </div>
+
+          <div class="col m6">
+              <div class="row">
+                <div class="col m12 yellow second-pane">
+                  <div class="text">
+                    <h4>Todos nuestros planes son con</h4>
+                    <h2>DESAYUNO</h2>
+                    <h3>Incluido</h3>
+                  </div>
+
+                  <div class="center-align">
+                    <a href="#" class="btn-panel "> Mas Información</a>
+                  </div>
+                </div>
+                <div class="col m12 black third-pane">
+                  <div class="video-container">
+                  
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
+
       </section>
     </div>
 

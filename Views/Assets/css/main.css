@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb {
 
 .arrow-bottom{
   z-index: 10;
-  bottom: 35vh;
+  bottom: 300px;
 }
 
 .arrow-top, .arrow-bottom{
@@ -213,4 +213,28 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(255,255,255,1);
   color: #ea6c6b;
   transition: 1s;
+}
+
+.four-pane .text{
+  height: 140px;
+  margin-bottom: -140px;
+  top: 20px;
+  position: relative;
+  z-index: 99;
+  margin-left: 20px;
+}
+
+.four-pane h3, .four-pane h4{
+  margin: 0;
+  padding: 0;
+}
+
+.four-pane h3{
+  font-family: "Roboto Thin";
+  font-size: 32.23px;
+}
+
+.four-pane h4{
+  font-family: "Roboto Black";
+  font-size: 112.66px;
 }
