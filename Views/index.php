@@ -26,7 +26,7 @@
 
           <div class="col s12 m6">
               <div class="row">
-                <div class="col m12 yellow second-pane">
+                <div class="col m12 second-pane">
                   <div class="text">
                     <h4>Todos nuestros planes son con</h4>
                     <h2>DESAYUNO</h2>
@@ -56,8 +56,8 @@
 
           <div class="col m6">
               <div class="row">
-                <div class="col m12 yellow five-pane">
-                    <img src="Assets/img/pic-home2.png" alt="La mejor opción de URRAO"/>
+                <div class="col m12  five-pane">
+                    <img src="Assets/img/pic-home-2.jpg" alt="La mejor opción de URRAO"/>
                 </div>
                 <div class="col m12 white five-pane">
                   <div class="text">

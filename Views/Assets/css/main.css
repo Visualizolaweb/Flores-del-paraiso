@@ -167,23 +167,6 @@ left: 0;
   margin: 0 5px;
 }
 
-.arrow-top{
-  z-index: 30;
-  top: 30px;
-}
-
-.arrow-bottom{
-  z-index: 10;
-  bottom: 300px;
-}
-
-.arrow-top, .arrow-bottom{
-  position: relative;
-  margin: 0 auto -24px auto;
-  height: 24px;
-  width: 44px;
-}
-
 .second-pane, .third-pane, .five-pane{
   height: 50vh;
 }
@@ -299,22 +282,73 @@ left: 0;
   text-align: justify;
 }
 
+.arrow-top, .arrow-bottom{
+  position: absolute;
+  height: 24px;
+  width: 44px;
+}
+
+.arrow-bottom{
+  margin-top: 320px;
+}
+
+.arrow-top{
+  margin-top: 140px;
+}
 
 
+.arrow-top, .arrow-bottom{
+  margin-left:18%;
+}
 /*RESPONSIVE DESIGN*/
 @media only screen and (max-width: 600px){
    .pic-room {
-    height: 85vh !important;
-    overflow: hidden;
-    margin-top: 15vh;
+     height: 85vh !important;
+     overflow: hidden;
+     margin-top: 15vh;
   }
+
+  .arrow-top, .arrow-bottom{
+    margin-left: 45%;
+  }
+  .second-pane{
+    width: 100%;
+  }
+
+  .second-pane .text{
+    margin: 0;
+    text-align: left;
+    padding: 12px;
+    width: auto;
+  }
+
+  .second-pane h4{
+    font-size: 23px;
+  }
+
+  .second-pane h2{
+    font-size: 50px;
+  }
+
+
+
 }
 @media only screen and (max-width : 992px) {
   #wrap-content{
     padding-left: 0;
   }
 
+
   .title-room h2 {
     font-size: 50px;
   }
+
+}
+
+
+/* The adjust of Arrows by height in every device */
+@media only screen and (max-height: 480px) {
+
+
+
 }
