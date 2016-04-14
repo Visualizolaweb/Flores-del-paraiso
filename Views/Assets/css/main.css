@@ -71,6 +71,34 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+/*MENU RESPONSIVO */
+
+.menu-mobile{
+  padding: 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+
+.menu-mobile #logotype{
+  margin-top: 0;
+  text-align: center;    width: 337px;
+}
+
+.menu-mobile #logotype img{
+  width: 145px;
+}
+
+.button-collapse{
+  position: absolute;
+top: 30px;
+background: #F26B6A;
+padding: 14px;
+left: 0;
+}
+/*FIN MENU RESPONSIVO*/
+
 .booking-access, .booking-access:hover {
   font-family: 'Roboto Condensed';
   font-weight: 600;
@@ -156,7 +184,7 @@ body::-webkit-scrollbar-thumb {
   width: 44px;
 }
 
-.second-pane, .third-pane{
+.second-pane, .third-pane, .five-pane{
   height: 50vh;
 }
 
@@ -214,7 +242,9 @@ body::-webkit-scrollbar-thumb {
   color: #ea6c6b;
   transition: 1s;
 }
-
+.four-pane{
+  margin-bottom: -10px;
+}
 .four-pane .text{
   height: 140px;
   margin-bottom: -140px;
@@ -237,4 +267,54 @@ body::-webkit-scrollbar-thumb {
 .four-pane h4{
   font-family: "Roboto Black";
   font-size: 112.66px;
+}
+
+.four-pane img{
+  height: 100vh;
+}
+.five-pane img{
+  width: 100%;
+}
+.video-container{
+  height: 100%;
+}
+.five-pane h3{
+  font-family: "Roboto Thin";
+  font-size: 20px;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+.five-pane h2{
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 46.71px;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.five-pane p{
+  padding: 10px;
+  text-align: justify;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+@media only screen and (max-width: 600px){
+   .pic-room {
+    height: 85vh !important;
+    overflow: hidden;
+    margin-top: 15vh;
+  }
+}
+@media only screen and (max-width : 992px) {
+  #wrap-content{
+    padding-left: 0;
+  }
+
+  .title-room h2 {
+    font-size: 50px;
+  }
 }
