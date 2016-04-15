@@ -19,14 +19,15 @@
     <div class="container-fluid">
       <?php require_once("Components/menu.php"); ?>
       <section id="wrap-content">
+
         <div class="row">
-          <div class="col s12 m6 first-pane">
+          <div class="col s12 m12 l6 first-pane">
                <?php require_once("Components/rooms-home.php"); ?>
           </div>
 
-          <div class="col s12 m6">
+          <div class="col s12 m12 l6">
               <div class="row">
-                <div class="col m12 second-pane">
+                <div class="col s12 m6 l12 second-pane">
                   <div class="text">
                     <h4>Todos nuestros planes son con</h4>
                     <h2>DESAYUNO</h2>
@@ -37,7 +38,7 @@
                     <a href="#" class="btn-panel "> Mas Información</a>
                   </div>
                 </div>
-                <div class="col m12 black third-pane">
+                <div class="col s12 m6 l12 black third-pane hide-on-small-only">
                   <div class="video-container">
                     <iframe width="100%" height="100%" src="//www.youtube.com/embed/tiryD0uCZPY?rel=0" frameborder="0" allowfullscreen></iframe>
                   </div>
@@ -46,7 +47,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col m6 four-pane">
+          <div class="col s12 m12 l6 four-pane">
               <div class="text white-text">
                 <h3>Somos la mejor alternativa en</h3>
                 <h4>URRAO</h4>
@@ -54,7 +55,7 @@
               <img src="Assets/img/pic-home.jpg" alt="La mejor opción de URRAO"/>
           </div>
 
-          <div class="col m6">
+          <div class="col s12 m12 l6">
               <div class="row">
                 <div class="col m12  five-pane">
                     <img src="Assets/img/pic-home-2.jpg" alt="La mejor opción de URRAO"/>
