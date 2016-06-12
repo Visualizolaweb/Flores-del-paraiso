@@ -50,7 +50,6 @@ $(document).ready(function(){
 
   $('.slider').slider({full_width: true});
   $('.parallax').parallax();
-
-  var options = [ {selector: '#item-text', offset: 50, callback: 'Materialize.showStaggeredList("#staggered-test")' }]; Materialize.scrollFire(options);
+  $('#gallery').galereya();
 
 });

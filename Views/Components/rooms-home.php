@@ -8,7 +8,7 @@
     <h2>TRIPE</h2>
   </div>
 
-  <img src="Assets/img/rooms/Individual.jpg" alt="Suite Flores del paraiso">
+  <img src="Assets/img/rooms/Triple.jpg" alt="Suite Flores del paraiso">
 </div>
 
 <!-- HABITACION DOBLE -->
@@ -21,7 +21,7 @@
     <h2>DOBLE</h2>
   </div>
 
-  <img src="Assets/img/rooms/Individual.jpg" alt="Suite Flores del paraiso">
+  <img src="Assets/img/rooms/Doble.jpg" alt="Suite Flores del paraiso">
 </div>
 
 <!-- HABITACION INDIVIDUAL -->

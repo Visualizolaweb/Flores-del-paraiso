@@ -29,11 +29,9 @@
           <li <?php echo $a; ?>><a href="index.php">INICIO</a></li>
           <li <?php echo $b; ?>><a href="hotel.php">EL HOTEL</a></li>
           <li <?php echo $c; ?>><a href="servicios.php">SERVICIOS</a></li>
-          <li <?php echo $d; ?>><a href="tarifa.php">TARIFA</a></li>
           <li <?php echo $e; ?>><a href="galeria.php">GALERIA</a></li>
           <li <?php echo $f; ?>><a href="eventos.php">EVENTOS</a></li>
-          <li <?php echo $g; ?>><a href="ubicacion.php">UBICACION</a></li>
-          <li <?php echo $h; ?>><a href="contactenos.php">CONTACTENOS</a></li>
+          <li <?php echo $h; ?>><a href="contactanos.php">CONTACTENOS</a></li>
         </ul>
         <a class="booking-access waves-effect waves-light btn-large" href="#">REALIZAR RESERVA</a>
       </div>
@@ -51,10 +49,15 @@
       <li><a href="index.php">INICIO</a></li>
       <li><a href="hotel.php">EL HOTEL</a></li>
       <li><a href="servicios.php">SERVICIOS</a></li>
-      <li><a href="tarifa.php">TARIFA</a></li>
       <li><a href="galeria.php">GALERIA</a></li>
-      <li><a href="eventos.php">EVENTOS</a></li>
-      <li><a href="ubicacion.php">UBICACION</a></li>
-      <li><a href="contactenos.php">CONTACTENOS</a></li>
-      </ul>
+      <li><a href="eventos.php">EVENTOS</a></li> 
+      <li><a href="contactanos.php">CONTACTENOS</a></li>
+      <div class="row social-icons center-align">
+        <li class="col m2"><a href="" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+        <li class="col m2"><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li class="col m2"><a href="" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+      </div>
+    </ul>
+
+
   </header>
